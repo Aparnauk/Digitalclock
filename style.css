@@ -1,0 +1,45 @@
+
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: rgb(4, 106, 249);
+    font-size: 150px;
+}
+
+#clock{
+    margin-top: 230px;
+
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/id/879172584/photo/blue-waves.jpg?s=612x612&w=0&k=20&c=3q15hxDVGfyQFORMrhS6zhKUDB6WTyiLD3_YeKKrux8=);
+    background-size: cover;
+    /* background-color: black; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.timer{
+    height: 100px;
+    width: 200px;
+    /* background-color: blue; */
+    border: 5px solid;
+}
+
+.row{
+    width: 80vh;
+    height: 87vh;
+    border: 2px solid;
+    background-color: rgba(5, 5, 42, 0.777);
+    border-style: double;
+    box-shadow: 20px 10px 15px 10px white;
+    margin-left: 480px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+

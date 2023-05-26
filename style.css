@@ -12,28 +12,24 @@
 
 #clock{
     margin-top: 230px;
-
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.619);
+    border-radius: 10px;
 }
 
 body{
     background-image: url(https://i.pinimg.com/originals/ef/e4/91/efe4911c1514bd6da486c87cab240f60.gif);
-    /* background-size: cover; */
-    /* background-color: black; */
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
-.timer{
-    height: 100px;
-    width: 200px;
-    /* background-color: blue; */
-    border: 5px solid;
-}
 
 .row{
     width: 80vh;
     height: 80vh;
-    border: 2px solid;
+    
     background-image: url(https://i.gifer.com/VPTe.gif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +37,134 @@ body{
     box-shadow: 20px 12px 18px 15px white;
     margin-left: 480px;
     margin-top: 80px;
-    border-radius: 50%;
+    border-radius: 50%;    
+    border: 5px solid;
+    margin-right: 300px;
 }
 
+
+
+/* @media only screen and (max-width: 760px) {
+    #clock{
+        margin-top: 100px;
+        height:70px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.619);
+        border-radius: 10px;
+    }
+} */
+
+
+@media only screen and (max-width: 915px) {
+.row{
+    width: 38vh;
+    height: 38vh;
+    margin-left: 10px;
+    box-shadow: 10px 2px 8px 10px white;
+    margin-top: 250px;
+}
+
+
+#clock{
+    margin-top: 130px;
+    height:80px;
+}
+
+
+
+body{
+    height: 100px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+
+
+.clock{
+    margin-bottom: 350px;
+    font-size: 90px;
+    margin-right: 300px;
+}
+
+
+}
+
+@media only screen and (max-width: 1080px) {
+    .row{
+        width: 60vh;
+        height: 60vh;
+        margin-left: 50px;
+        margin-top: 250px;
+    }
+
+    
+    #clock{
+        margin-top: 250px;
+        height:100px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.619);
+        border-radius: 15px;
+    }
+    
+    body{
+
+        background-attachment: fixed;
+    }
+
+
+    
+    .clock{
+        margin-bottom: 250px;
+        margin-right: 300px;
+        font-size: 150px;
+    }
+    
+    
+    }
+
+
+    @media only screen and (max-width: 810px) {
+        .row{
+            width: 38vh;
+            height: 38vh;
+            margin-left: 10px;
+            margin-top: 250px;
+        }
+        
+        
+        #clock{
+            margin-top: 120px;
+            height:80px;
+        }
+        
+        .clock{
+            margin-bottom: 450px;
+            font-size: 85px;
+            margin-right: 300px;
+        }
+        
+     
+    }
+
+    /* @media only screen and (min-width: 357px) {
+
+        
+        .clock{
+            margin-bottom: 250px;
+            font-size: 65px;
+            margin-right: 300px;
+        }
+        
+        #clock{
+            margin-top: 100px;
+            height:80px;
+        }
+
+        .row{
+            width: 45vh;
+            height: 45vh;
+            margin-top: 10px;
+        }
+     
+    } */
 

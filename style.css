@@ -6,7 +6,7 @@
     align-items: center;
     width: 100%;
     height: 100px;
-    color: rgb(4, 106, 249);
+    color: white;
     font-size: 150px;
 }
 
@@ -16,8 +16,8 @@
 }
 
 body{
-    background-image: url(https://media.istockphoto.com/id/879172584/photo/blue-waves.jpg?s=612x612&w=0&k=20&c=3q15hxDVGfyQFORMrhS6zhKUDB6WTyiLD3_YeKKrux8=);
-    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/ef/e4/91/efe4911c1514bd6da486c87cab240f60.gif);
+    /* background-size: cover; */
     /* background-color: black; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,13 +32,15 @@ body{
 
 .row{
     width: 80vh;
-    height: 87vh;
+    height: 80vh;
     border: 2px solid;
-    background-color: rgba(5, 5, 42, 0.777);
+    background-image: url(https://i.gifer.com/VPTe.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-style: double;
-    box-shadow: 20px 10px 15px 10px white;
+    box-shadow: 20px 12px 18px 15px white;
     margin-left: 480px;
-    margin-top: 50px;
+    margin-top: 80px;
     border-radius: 50%;
 }
 

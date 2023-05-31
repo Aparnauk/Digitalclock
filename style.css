@@ -5,166 +5,58 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 150px;
     color: white;
-    font-size: 150px;
+    font-size:130px;
+    position: relative;
 }
 
 #clock{
-    margin-top: 230px;
-    height: 100px;
-    width: 100%;
+   
+    margin-top: 220px;
+    height: 90px;
+    width:512px;
     background-color: rgba(0, 0, 0, 0.619);
     border-radius: 10px;
+    position: relative;
+    
 }
 
 body{
-    background-image: url(https://i.pinimg.com/originals/ef/e4/91/efe4911c1514bd6da486c87cab240f60.gif);
+    
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
     
 }
 
+.orenge{
+    height: 95vh;
+    width: 95vh;
+    background-image: url(https://thumbs.gfycat.com/ArcticEnergeticHuemul-size_restricted.gif);
+    border-radius: 50%;
+    margin-left: 400px;
+    box-shadow: 10px 12px 12px 15px rgb(177, 50, 4);
+}
 
-.row{
-    width: 80vh;
-    height: 80vh;
-    
-    background-image: url(https://i.gifer.com/VPTe.gif);
+.main{
+   
+    width: 70vh;
+    height: 70vh;
+    position: fixed;
+    background-image: url(https://thumbs.gfycat.com/CookedPepperyHorseshoecrab.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    border-style: double;
-    box-shadow: 20px 12px 18px 15px white;
-    margin-left: 480px;
-    margin-top: 80px;
+    
+    box-shadow: 10px 12px 12px 15px rgb(177, 50, 4);
+    margin-left: 80px;
+    margin-top: 85px;
     border-radius: 50%;    
     border: 5px solid;
-    margin-right: 300px;
+    /* margin-right: 300px; */
 }
 
 
-
-/* @media only screen and (max-width: 760px) {
-    #clock{
-        margin-top: 100px;
-        height:70px;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.619);
-        border-radius: 10px;
-    }
-} */
-
-
-@media only screen and (max-width: 915px) {
-.row{
-    width: 38vh;
-    height: 38vh;
-    margin-left: 10px;
-    box-shadow: 10px 2px 8px 10px white;
-    margin-top: 250px;
-}
-
-
-#clock{
-    margin-top: 130px;
-    height:80px;
-}
-
-
-
-body{
-    height: 100px;
-    width: 100%;
-    background-attachment: fixed;
-}
-
-
-
-.clock{
-    margin-bottom: 350px;
-    font-size: 90px;
-    margin-right: 300px;
-}
-
-
-}
-
-@media only screen and (max-width: 1080px) {
-    .row{
-        width: 60vh;
-        height: 60vh;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-
-    
-    #clock{
-        margin-top: 250px;
-        height:100px;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.619);
-        border-radius: 15px;
-    }
-    
-    body{
-
-        background-attachment: fixed;
-    }
-
-
-    
-    .clock{
-        margin-bottom: 250px;
-        margin-right: 300px;
-        font-size: 150px;
-    }
-    
-    
-    }
-
-
-    @media only screen and (max-width: 810px) {
-        .row{
-            width: 38vh;
-            height: 38vh;
-            margin-left: 10px;
-            margin-top: 250px;
-        }
-        
-        
-        #clock{
-            margin-top: 120px;
-            height:80px;
-        }
-        
-        .clock{
-            margin-bottom: 450px;
-            font-size: 85px;
-            margin-right: 300px;
-        }
-        
-     
-    }
-
-    /* @media only screen and (min-width: 357px) {
-
-        
-        .clock{
-            margin-bottom: 250px;
-            font-size: 65px;
-            margin-right: 300px;
-        }
-        
-        #clock{
-            margin-top: 100px;
-            height:80px;
-        }
-
-        .row{
-            width: 45vh;
-            height: 45vh;
-            margin-top: 10px;
-        }
-     
-    } */
 

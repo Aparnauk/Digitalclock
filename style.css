@@ -19,10 +19,11 @@
    
     margin-top: 200px;
     height: 100px;
-    width:505px;
+    width:500px;
     background-color: rgba(0, 0, 0, 0.66);
     border-radius: 10px;
     /* position: fixed; */
+    margin-left: 2px;
     
 }
 
